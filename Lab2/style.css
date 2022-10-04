@@ -23,9 +23,6 @@ body {
     background-size: cover;
 }
 
-.text-center {
-    text-align: center;
-}
 
 .main-menu ul {
     list-style: none;
@@ -62,11 +59,21 @@ main {
 }
 
 .container1 {
-
     margin: 10px;
 }
 
 .home {
+    
+margin: 194px ;
+    text-align: center;   
+}
+.text-center{
     text-align: center;
-    margin: 201px;
+}
+
+.fon{
+    border:2px solid black ;
+    border-radius: 15px;
+   
+    display: inline-block;
 }
