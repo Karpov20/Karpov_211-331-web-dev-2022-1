@@ -30,23 +30,23 @@
 
                 <div class="container1">
                     <label for="fio">ФИО</label>
-                    <input class="fio" type="text" name="fio" id="fio" placeholder="Введите ФИО">
+                    <input class="fio" type="text" name="fio" id="fio" placeholder="Введите ФИО" required>
                 </div>
                 <div class="container1">
                     <label for="email">Адрес электронной почты</label>
-                    <input type="email" name="email" value="qq@gmail.com" id="email" required>
+                    <input class="email" type="email" name="email" placeholder="Введите email" id="email" required >
                 </div>
 
-                <fieldset class="container1">
+                <fieldset class="container2">
                     <legend>Откуда вы узнали о нас:</legend>
 
-                    <div class="container1">
-                        <input type="radio" id="friend" name="sourse" value="friend" checked>
+                    <div class="container2">
+                        <input type="radio" id="friend" name="sourse" value="friend" checked >
                         <label for="friend">Рассказали друзьям</label>
                     </div>
 
-                    <div class="container1">
-                        <input type="radio" id="internet" name="sourse" value="internet">
+                    <div class="container2">
+                        <input type="radio" id="internet" name="sourse" value="internet" >
                         <label for="internet">Реклама в интернете</label>
                     </div>
 
@@ -54,7 +54,7 @@
 
                 <div class="container1">
                     <label for="category">Категория обращения</label>
-                    <select name="category" id="category" multiple>
+                    <select class="category" name="category" id="category" multiple>
                         <option value="1">Жалоба</option>
                         <option value="2 selected">Предложения</option>
                     </select>
@@ -62,13 +62,13 @@
 
                 <div class="container1">
                     <label for="msg">Текст сообщения</label>
-                    <textarea name="msg" id="msg" cols="30" rows="10">Текст сообщения</textarea>
+                    <textarea class="message" name="msg" id="msg" cols="30" rows="10" placeholder="Введите текст" required></textarea>
                 </div>
                 <div class="container1">
                     <label for="attachment">Вложение</label>
-                    <input type="file" name="attachment" id="attachment">
+                    <input type="file" name="attachment" id="attachment" required>
                 </div>
-                <div class="container1">
+                <div class="container3">
                     <input type="checkbox" name="agreement" id="agreement" value="true" required>
                     <label for="agreement">Согласен с обработкой персональных данных</label>
                 </div>
