@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polytech Pharmacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <a href="auth.html">Вход</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container d-flex">
+        <aside class="sidebar">
+            <form>
+                <fieldset>
+                    <legend>Каталог</legend>
+
+                    <div>
+                        <input type="radio" name="group" value="group1" id="group1">
+                        <label for="group1">Сердечно-сосудистая система</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" value="group2" id="group2">
+                        <label for="group2">Дерматология</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" value="group3" id="group3">
+                        <label for="group3">Средства от аллергии</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" value="group4" id="group4">
+                        <label for="group4">Ортопедические изделия</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="group" value="group5" id="group5">
+                        <label for="group5">Перевязочные материалы</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Виды</legend>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer1" name="manufacturer" id="manufacturer1">
+                        <label for="manufacturer1">Костыли</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer2" name="manufacturer" id="manufacturer2">
+                        <label for="manufacturer2">Корсеты</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer3" name="manufacturer" id="manufacturer3">
+                        <label for="manufacturer3">Для лечения заболеваний вен</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer4" name="manufacturer" id="manufacturer4">
+                        <label for="manufacturer4">Прочие препараты для лечения заболеваний сердца</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer5" name="manufacturer" id="manufacturer5">
+                        <label for="manufacturer5">Препараты для лечения ран и язв</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer5" name="manufacturer" id="manufacturer6">
+                        <label for="manufacturer5">Аллергены для АСИТ</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" value="manufacturer5" name="manufacturer" id="manufacturer7">
+                        <label for="manufacturer5">Системные антигистаминные</label>
+                    </div>    
+                    
+                </fieldset>
+
+                <button type="submit">Применить</button>
+
+            </form>
+        </aside>
+
+        <div class="page-content">
+            <h1 class="products-category-header">Предложение месяца</h1>
+
+            <div class="products-list">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product1.png" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>Staloral</header>
+
+                        <p class="information">Отпуск иммунобиологического лекарственного препарата ОСУЩЕСТВЛЯЕТСЯ ПО РЕЦЕПТУ ВРАЧА и ПРИ НАЛИЧИИ У ПОКУПАТЕЛЯ ТЕРМОКОНТЕЙНЕРА, в который помещается лекарственный препарат, доставка данного лекарственного препарата в медицинскую организацию при условии хранения в специальном термоконтейнере не должна превышать срок 48 часов после его приобретения.</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">6500 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product2.png" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>Аллегра</header>
+
+                        <p class="information">Показания к применению
+                            Сезонный аллергический ринит (для уменьшения симптомов) - таблетки 120 мг
+                            Хроническая идиопатическая крапивница (для уменьшения симптомов) - таблетки 180 мг</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">695 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product3.png" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>Venitan гель</header>
+
+                        <p class="information">Показания к применению
+                                -Венозная недостаточность (боли и чувство тяжести в ногах, ночные судороги в икроножных мышцах, кожный зуд, отечность ног);
+
+                            -варикозное расширение вен;
+                            
+                            -травмы (ушибы, отек мягких тканей, посттравматические гематомы, растяжение связок), инфильтраты после инъекций.
+                            
+                            -Беременность и лактация</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">294 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product4.png" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>Адреналин</header>
+
+                        <p class="information">Показания к применению
+                            Аллергические реакции немедленного типа, в т.ч.: Крапивница. Ангионевротический отек. Анафилактический шок. Анафилактические реакции и астма физического усилия. Бронхиальная астма (купирование астматического статуса). Бронхоспазм во время наркоза. Асистолия (в т.ч. на фоне остро развившейся атриовентрикулярной блокады III ст.). Кровотечение из поверхностных сосудов кожи и слизистых оболочек (в т.ч. из десен).</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">91 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product5.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>911 Пантенол</header>
+
+                        <p class="information">Крем для тела ПАНТЕНОЛ рекомендуется как вспомогательное средство в комплексной терапии нарушений целостности кожных покровов: мелкие повреждения, ожоги (в т.ч. солнечные), обморожения, ссадины, дерматиты, пролежни, опрелости, трещины. Д-пантенол оказывает выраженное регенерирующее, противовоспалительное действие, способствует восстановлению кожных покровов.</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">122 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product6.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>911 экстренная помощь</header>
+
+                        <p class="information">Пантенол в составе крема обладает выраженным восстанавливающим действием, помогает успокоить раздраженный эпидермис и восстановить его после различных неблагоприятных воздействий. Глубоко увлажняет, защищает кожный покров от пересушивания и обветривания.</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">141 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product7.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>B.Well Корсет ортопедический</header>
+
+                        <p class="information">Корсет ортопедический, мягкий, уменьшает болевой синдром в поясничном отделе позвоночника за счет:
+
+                            -устранения дисбаланса паравертебральных и поясничных мышц
+                            
+                            -стабилизации поясничного отдела позвоночника
+                            
+                            -разгрузки поясничного отдела позвоночника</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">2169 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product8.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>Baltic Бинт медицинский</header>
+
+                        <p class="information">Бинт вязаный, средней растяжимости (до 140%), с 2-мя застежками ( в комплекте имеются соединительные крючки для закрепления повязки), возможность повторного использования после стирки, произведен по технологии и под контролем специалистов.</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">131 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product9.jpg" alt="product">
+                    </div>
+                    <div class="product-details">
+                        <header>Костыли</header>
+
+                        <p class="information">Стойки и ножки костылей изготовлены из стального проката, подмышечник и ручка из пластмассы. В качестве защитного покрытия используется порошковое напыление. Резиновый наконечник имеет внутренний диаметр 19 мм, внешний 30 мм.Выдерживают нагрузку до 100 кг.Высота костыля регулируется путем перестановки ножки. Шаг изменения высоты 35 mm.MIN 1280, MAX 1420 mm.Вес пары костылей ? 2,4кг</p>
+
+                        <div class="controls">
+                            <button class="btn">
+                                <span class="price">1221 &#8381;</span><span class="buy">Купить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="scroll-to-top-btn">
+            &#9650;
+        </button>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; ООО "Polytech Pharmacy"
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
